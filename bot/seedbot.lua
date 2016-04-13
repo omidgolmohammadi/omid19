@@ -226,93 +226,83 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {212990316},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[avast V6.3 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/Arashalone/avast-BOT-V6.3/
 
-Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
+Developed and avast team owner: @arashnomiri
 
-Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
-
-Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
+Our channel:
+@avast_team
 ]],
     help_text_realm = [[
 Realm Commands:
 
 !creategroup [name]
-Create a group
+🔘Create a group
 
 !createrealm [name]
-Create a realm
+🔘Create a realm
 
 !setname [name]
-Set realm name
+🔘Set realm name
 
 !setabout [group_id] [text]
-Set a group's about text
+🔘Set a group's about text
 
 !setrules [grupo_id] [text]
-Set a group's rules
+🔘Set a group's rules
 
 !lock [grupo_id] [setting]
-Lock a group's setting
+🔘Lock a group's setting
 
 !unlock [grupo_id] [setting]
-Unock a group's setting
+🔘Unock a group's setting
 
 !wholist
-Get a list of members in group/realm
+🔘Get a list of members in group/realm
 
 !who
-Get a file of members in group/realm
+🔘Get a file of members in group/realm
 
 !type
-Get group type
+🔘Get group type
 
 !kill chat [grupo_id]
-Kick all memebers and delete group
+🔘Kick all memebers and delete group
 
 !kill realm [realm_id]
-Kick all members and delete realm
+🔘Kick all members and delete realm
 
 !addadmin [id|username]
-Promote an admin by id OR username *Sudo only
+🔘Promote an admin by id OR username *Sudo only
 
 !removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
+🔘Demote an admin by id OR username *Sudo only
 
 !list groups
-Get a list of all groups
+🔘Get a list of all groups
 
 !list realms
-Get a list of all realms
+🔘Get a list of all realms
 
 !log
-Get a logfile of current group or realm
+🔘Get a logfile of current group or realm
 
 !broadcast [text]
 !broadcast Hello !
-Send text to all groups
+🔘Send text to all groups
 » Only sudo users can run this command
 
 !bc [group_id] [text]
 !bc 123456789 Hello !
-This command will send text to [group_id]
+🔘This command will send text to [group_id]
+
+>>For see plugins send !plugins
 
 » U can use both "/" and "!" 
 
@@ -327,97 +317,99 @@ This command will send text to [group_id]
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+🔘You can also do it by reply
 
 !ban [ username|id]
-You can also do it by reply
+🔘You can also do it by reply
 
 !unban [id]
-You can also do it by reply
+🔘You can also do it by reply
 
 !who
-Members list
+🔘Members list
 
 !modlist
-Moderators list
+🔘Moderators list
 
 !promote [username]
-Promote someone
+🔘Promote someone
 
 !demote [username]
-Demote someone
+🔘Demote someone
 
 !kickme
-Will kick user
+🔘Will kick user
 
 !about
-Group description
+🔘Group description
 
 !setphoto
-Set and locks group photo
+🔘Set and locks group photo
 
 !setname [name]
-Set group name
+🔘Set group name
 
 !rules
-Group rules
+🔘Group rules
 
 !id
-Return group id or user id
+🔘Return group id or user id
 
 !help
-Get commands list
+🔘Get commands list
 
 !lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
+🔘Locks [member|name|bots|leaveing] 
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+🔘Unlocks [member|name|bots|leaving]
 
 !set rules [text]
-Set [text] as rules
+🔘Set [text] as rules
 
 !set about [text]
-Set [text] as about
+🔘Set [text] as about
 
 !settings
-Returns group settings
+🔘Returns group settings
 
 !newlink
-Create/revoke your group link
+🔘Create/revoke your group link
 
 !link
-Returns group link
+🔘Returns group link
 
 !owner
-Returns group owner id
+🔘Returns group owner id
 
 !setowner [id]
-Will set id as owner
+🔘Will set id as owner
 
 !setflood [value]
-Set [value] as flood sensitivity
+🔘Set [value] as flood sensitivity
 
 !stats
-Simple message statistics
+🔘Simple message statistics
 
 !save [value] [text]
-Save [text] as [value]
+🔘Save [text] as [value]
 
 !get [value]
-Returns text of [value]
+🔘Returns text of [value]
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+🔘Will clear [modlist|rules|about] and set it to nil
 
 !res [username]
-Returns user id
+🔘Returns user id
 
 !log
-Will return group logs
+🔘Will return group logs
 
 !banlist
-Will return group ban list
+🔘Will return group ban list
+
+>>For see plugins send "!plugins"
 
 » U can use both "/" and "!" 
 
