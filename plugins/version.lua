@@ -1,15 +1,13 @@
 do
 
 function run(msg, matches)
-  return 'avast-BOT V6.3'.. VERSION .. [[ 
+  return 'omid_antispam_bot V1'.. VERSION .. [[ 
  
-  Developer : @arashnomiri
+  Developer : @heset_ni_zendgi
   
-  Channel : @avast_team
+  Channel : @omid_antispam_bot_chanal
   
-  Open git : https://github.com/Arashalone/avast-BOT-V6.3.git
-  
- avast-BOT V6.3
+ omid_antispam_bot V1
   
   All rights reserved.
   __________________]]
