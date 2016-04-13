@@ -15,7 +15,7 @@ end
 end
 return {
  patterns = {
-"^[Ss]bss (.*) (.*)$"
+"^[Aa]vast (.*) (.*)$"
 },
 run = run,
 privileged = true,
