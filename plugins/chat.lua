@@ -60,7 +60,7 @@ if msg.text == "@arashnomiri" then
   return "چیکار داری بابامو؟"
 end
 if msg.text == "آنلاینی؟" then
-  return "آره عشقم!
+  return "آره عشقم!"
 end
 
 return {
