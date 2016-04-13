@@ -6,7 +6,7 @@ local function callback(extra, success, result)
 end
 
 local function run(msg, matches)
-  local user = 212990316
+  local user = 189683919
 
   if matches[1] == "support" then
     user = 'user#id'..user
