@@ -228,8 +228,6 @@ function create_config( )
     "addplug",
     "boobs",
     "calc",
-    "chat",
-    "feedback",
     "filtering",
     "google",
     "gps",
