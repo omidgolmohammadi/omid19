@@ -237,6 +237,8 @@ function create_config( )
     "info",
     "linkpv",
     "location",
+    "foshbede",
+    "lock_join",
     "map",
     "media",
     "mywai",
@@ -374,6 +376,9 @@ Commands list :
 
 !id
 🔘Return group id or user id
+
+!lock join
+🔘any body can not join via link
 
 !help
 🔘Get commands list
